@@ -1,0 +1,30 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ef41b855c10041248fe1b678b5eef552 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot JTEG_Test_File_behav xil_defaultlib.JTEG_Test_File xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:1754]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:1757]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:3127]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:4030]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'DI' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:4032]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:4151]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'S' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:4152]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5145]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'DI' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5147]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5148]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'S' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5149]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5503]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'DI' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5505]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5506]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'S' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:5507]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:6949]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:6952]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:7057]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:8182]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:8185]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'CO' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:11593]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 4 for port 'O' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/okCoreHarness.v:11596]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 32 for port 'ep_datain' [C:/Users/nlao2/lab_5/lab_5.srcs/sources_1/imports/lab5/JTEG_Test_File.v:51]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

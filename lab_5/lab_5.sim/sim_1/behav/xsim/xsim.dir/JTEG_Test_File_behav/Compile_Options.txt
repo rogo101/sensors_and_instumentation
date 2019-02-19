@@ -1,0 +1,1 @@
+-wto "ef41b855c10041248fe1b678b5eef552" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "JTEG_Test_File_behav" "xil_defaultlib.JTEG_Test_File" "xil_defaultlib.glbl" -log "elaborate.log" 

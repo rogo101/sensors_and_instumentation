@@ -1,0 +1,7 @@
+Running: xsim.dir/JTEG_Test_File_behav/xsimk.exe -simmode gui -wdb JTEG_Test_File_behav.wdb -simrunnum 0 -socket 50478
+Design successfully loaded
+Design Loading Memory Usage: 12256 KB (Peak: 12256 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 15872 KB (Peak: 15872 KB)
+Simulation CPU Usage: 61 ms

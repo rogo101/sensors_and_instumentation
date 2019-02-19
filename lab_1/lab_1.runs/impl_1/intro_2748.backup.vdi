@@ -1,0 +1,780 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Jan 15 10:37:04 2019
+# Process ID: 2748
+# Current directory: C:/Users/nlao2/lab_1/lab_1.runs/impl_1
+# Command line: vivado.exe -log intro.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source intro.tcl -notrace
+# Log file: C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro.vdi
+# Journal file: C:/Users/nlao2/lab_1/lab_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source intro.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7a75tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc]
+WARNING: [Vivado 12-584] No ports matched 'okHU[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okHU[1]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okHU[2]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[1]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[2]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[3]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[4]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[1]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[2]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[3]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[4]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[5]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[6]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[7]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[8]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[9]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[10]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[11]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[12]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[13]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[14]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[15]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[16]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[17]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[18]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[19]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[20]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[21]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[22]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[23]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[24]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[25]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[26]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[27]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[28]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[29]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[30]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[31]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okAA'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okAA'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'okUH[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:70]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports {okUH[0]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:70]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+INFO: [Timing 38-35] Done setting XDC timing constraints. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:72]
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:72]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:72]
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 979.254 ; gain = 489.828
+WARNING: [Vivado 12-584] No ports matched 'okUH[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:72]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {okUH[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:72]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:73]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'okUH[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:73]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {okUH[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:73]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'okUH[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:74]
+CRITICAL WARNING: [Vivado 12-4739] set_multicycle_path:No valid object(s) found for '-from [get_ports {okUH[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:74]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:76]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:76]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {okUHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:76]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:77]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:77]
+CRITICAL WARNING: [Vivado 12-4739] set_input_delay:No valid object(s) found for '-objects [get_ports {okUHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:77]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:78]
+CRITICAL WARNING: [Vivado 12-4739] set_multicycle_path:No valid object(s) found for '-from [get_ports {okUHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:78]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:80]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:80]
+WARNING: [Vivado 12-584] No ports matched 'okHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:80]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports {okHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:80]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:81]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:81]
+WARNING: [Vivado 12-584] No ports matched 'okHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:81]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports {okHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:81]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:83]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:83]
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:83]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports {okUHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:83]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:84]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:84]
+WARNING: [Vivado 12-584] No ports matched 'okUHU[*]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:84]
+CRITICAL WARNING: [Vivado 12-4739] set_output_delay:No valid object(s) found for '-objects [get_ports {okUHU[*]}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:84]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-627] No clocks matched 'mmcm0_clk0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:97]
+WARNING: [Vivado 12-627] No clocks matched 'okUH0'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:97]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:97]
+CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks {mmcm0_clk0 okUH0}]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:97]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:97]
+WARNING: [Vivado 12-584] No ports matched 'reset'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_LVDS_CLK_P'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300-LVDS_CLK_P'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_LVDS_CLK_N'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_LVDS_CLK_N'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_CLK_IN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_CLK_IN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_CLK_OUT'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_CLK_OUT'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SYS_RES_N'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:124]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:124]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SYS_RES_N'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:125]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:125]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_Enable_LVDS'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_Enable_LVDS'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_EN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_EN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_IN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_IN'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_OUT'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_OUT'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_CLK'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_SPI_CLK'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_FRAME_REQ'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:152]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:152]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_FRAME_REQ'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:153]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:153]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[0]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[1]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[1]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:202]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:202]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[2]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[2]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[3]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[3]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[4]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[4]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:211]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:211]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[5]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[5]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[6]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:216]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:216]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[6]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:217]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:217]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[7]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[7]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CVM300_D[8]'. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:222]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:222]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:222]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:223]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:229]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:230]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:232]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:233]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:239]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:240]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:242]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:243]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc:243]
+Finished Parsing XDC File [//ad.uillinois.edu/engr-ews/nlao2/Downloads/xem7310_v1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 990.277 ; gain = 759.637
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+Command: report_drc (run_mandatory_drcs) for: opt_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.446 . Memory (MB): peak = 990.277 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1d998f6b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 24 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1d998f6b3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1f1e457ae
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1f1e457ae
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1f1e457ae
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 997.992 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1f1e457ae
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: ea559225
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 997.992 ; gain = 0.000
+33 Infos, 110 Warnings, 113 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_opt.dcp' has been generated.
+Command: report_drc -file intro_drc_opted.rpt
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+Command: report_drc (run_mandatory_drcs) for: incr_eco_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+Command: report_drc (run_mandatory_drcs) for: placer_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 997.992 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: d103e4a0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 997.992 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 6afab7ea
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: ca9b3d6d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: ca9b3d6d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: ca9b3d6d
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: a3128e8c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: a3128e8c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 108581350
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 159d94860
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 159d94860
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 14e2c0d45
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 19ef2d8b9
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 1882f4b55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1882f4b55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1882f4b55
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 997.992 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: e8877058
+
+Phase 4.1.1.1 BUFG Insertion
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Place 46-41] BUFG insertion identified 0 candidate nets, 0 success, 0 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: e8877058
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.989. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: d2c81167
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+Phase 4.1 Post Commit Optimization | Checksum: d2c81167
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: d2c81167
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: d2c81167
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 12a9726a2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 12a9726a2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+Ending Placer Task | Checksum: 1044a8a26
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1001.238 ; gain = 3.246
+52 Infos, 110 Warnings, 113 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1001.238 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_placed.dcp' has been generated.
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1001.238 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1001.238 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1001.238 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a75t-fgg484'
+Running DRC as a precondition to command route_design
+Command: report_drc (run_mandatory_drcs) for: router_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 60f54c39 ConstDB: 0 ShapeSum: a3553ded RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 15ed45cc5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1163.520 ; gain = 161.414
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 15ed45cc5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1163.520 ; gain = 161.414
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 15ed45cc5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1163.520 ; gain = 161.414
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 15ed45cc5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 1163.520 ; gain = 161.414
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1cdaed159
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.993  | TNS=0.000  | WHS=-0.022 | THS=-0.217 |
+
+Phase 2 Router Initialization | Checksum: 1078bb253
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 18333dd50
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.892  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 11043312d
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+Phase 4 Rip-up And Reroute | Checksum: 11043312d
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 19beb6108
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.980  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 19beb6108
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 19beb6108
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+Phase 5 Delay and Skew Optimization | Checksum: 19beb6108
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1e1001d26
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.980  | TNS=0.000  | WHS=0.248  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1791b203d
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+Phase 6 Post Hold Fix | Checksum: 1791b203d
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0512251 %
+  Global Horizontal Routing Utilization  = 0.00369423 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 19dc07743
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 19dc07743
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 17d75a1d2
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.980  | TNS=0.000  | WHS=0.248  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 17d75a1d2
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:22 . Memory (MB): peak = 1174.145 ; gain = 172.039
+
+Routing Is Done.
+65 Infos, 110 Warnings, 113 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:23 . Memory (MB): peak = 1174.145 ; gain = 172.906
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1174.145 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_routed.dcp' has been generated.
+Command: report_drc -file intro_drc_routed.rpt -pb intro_drc_routed.pb -rpx intro_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_drc_routed.rpt.
+report_drc completed successfully
+Command: report_methodology -file intro_methodology_drc_routed.rpt -rpx intro_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/nlao2/lab_1/lab_1.runs/impl_1/intro_methodology_drc_routed.rpt.
+report_methodology completed successfully
+Command: report_power -file intro_power_routed.rpt -pb intro_power_summary_routed.pb -rpx intro_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+72 Infos, 110 Warnings, 113 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 15 10:37:52 2019...
